@@ -23,7 +23,6 @@ on:
     types: started
 
 env:
-  #:REPO_URL: https://github.com/gl-inet/openwrt 
   REPO_URL: https://github.com/a871516130/gl-inetopenwrt-0-14.3
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
