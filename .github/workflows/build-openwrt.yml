@@ -23,7 +23,8 @@ on:
     types: started
 
 env:
-  REPO_URL: https://github.com/gl-inet/openwrt
+  #:REPO_URL: https://github.com/gl-inet/openwrt 
+  REPO_URL: https://github.com/a871516130/gl-inetopenwrt-0-14.3
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
@@ -33,7 +34,7 @@ env:
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: false
   UPLOAD_COWTRANSFER: true
-  UPLOAD_WETRANSFER: true
+  UPLOAD_WETRANSFER: false
   TZ: Asia/Shanghai
 
 jobs:
